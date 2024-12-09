@@ -1,1 +1,1 @@
-#Comforty - Master branch
+#Comforty
