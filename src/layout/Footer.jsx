@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import MyIcon from "../components/MyIcon";
+import visaPic from "../assets/icons/visa.svg";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="w-full border border-zinc-200">
       <div className="container grid grid-cols-4 mx-auto pt-20 pb-16 gap-24">
         <div className="flex flex-col gap-6">
           <Link to="/">
@@ -68,6 +69,13 @@ export default function Footer() {
             tincidunt erat enim.
           </p>
         </div>
+      </div>
+      <div className="flex items-center justify-between container mx-auto">
+        <p className="font-poppins text-sm text-zinc-400">
+          @ 2021 - Blogy - Designed & Develop by{" "}
+          <span className="text-black">Zakirsoft</span>
+        </p>
+        <img src={visaPic} alt="visa" />
       </div>
     </footer>
   );

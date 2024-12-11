@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         serif: ["DM Sans", ...defaultTheme.fontFamily.serif],
+        poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
     },
   },
