@@ -1,3 +1,4 @@
+import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import Nav from "./layout/Nav";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Nav />
+      <Footer />
     </>
   );
 }
