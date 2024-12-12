@@ -1,11 +1,13 @@
 import { Carousel } from "flowbite-react";
 import chair from "../assets/chair.png";
 import furniture from "../assets/furniture.png";
+import customTheme from "../theme/carouselTheme";
+import ServiceHighlights from "./ServiceHighlights";
 
 export default function Banner() {
   return (
-    <div className="h-64 sm:h-80 xl:h-96 container mx-auto">
-      <Carousel>
+    <div className="h-64 sm:h-96 xl:h-[600px] container mx-auto">
+      <Carousel theme={customTheme.carousel}>
         {/* Slide 1 */}
         <div className="relative flex h-full items-center justify-center bg-gray-100">
           {/* blue circle */}
@@ -29,7 +31,7 @@ export default function Banner() {
             <p className="text-sm font-medium"> Discount</p>
           </div>
           {/* Text on image */}
-          <div className="absolute top-24 left-32 p-4 rounded ">
+          <div className="absolute left-32 p-4 rounded ">
             <p className="text-sm  text-slate-800 uppercase">
               Welcome to chairy
             </p>
@@ -49,6 +51,9 @@ export default function Banner() {
           <img src={furniture} alt="furniture" className="w-full" />
         </div>
       </Carousel>
+
+      {/* ServiceHighlights */}
+      <ServiceHighlights />
     </div>
   );
 }
