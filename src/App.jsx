@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <Nav />
-      <main className="w-full h-screen">
+      <main className="w-full min-h-screen">
         <Outlet />
       </main>
       <Footer />

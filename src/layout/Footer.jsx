@@ -4,7 +4,7 @@ import visaPic from "../assets/icons/visa.svg";
 
 export default function Footer() {
   return (
-    <footer className="w-full border border-zinc-200">
+    <footer className="w-full border border-zinc-200 mt-5">
       <div className="container grid grid-cols-4 mx-auto pt-20 pb-16 gap-24">
         <div className="flex flex-col gap-6">
           <Link to="/">
