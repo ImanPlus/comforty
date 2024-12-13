@@ -1,13 +1,13 @@
 import Banner from "../components/Banner";
 import BrandsLogo from "../components/BrandsLogo";
-import ProductCard from "../components/ProductCard";
+import Slider from "../components/Slider";
 
 export default function HomePage() {
   return (
     <>
       <Banner />
       <BrandsLogo />
-      <ProductCard />
+      <Slider titleSlider="Featured Products" />
     </>
   );
 }

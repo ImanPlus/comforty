@@ -4,7 +4,7 @@ import MyIcon from "../components/MyIcon";
 export default function Header() {
   return (
     <header className="w-full bg-bgMain">
-      <div className="container flex justify-between items-center mx-auto py-6">
+      <div className="container flex justify-between items-center mx-auto py-6 w-[57%]">
         <Link to="/">
           <div className="flex items-center">
             <MyIcon iconName="logo" size="40" />

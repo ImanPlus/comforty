@@ -2,7 +2,7 @@ import MyIcon from "../components/MyIcon";
 
 export default function Nav() {
   return (
-    <nav className="container mx-auto py-3 text-sm flex items-center justify-between">
+    <nav className="container mx-auto py-3 text-sm flex items-center justify-between w-[57%]">
       <div className="font-medium">
         <div className="flex space-x-8 items-center">
           <div className="flex items-center space-x-2 border border-zinc-200 p-4 rounded-md hover:bg-gray-400 cursor-pointer">

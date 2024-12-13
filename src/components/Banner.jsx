@@ -31,7 +31,7 @@ export default function Banner() {
             <p className="text-sm font-medium"> Discount</p>
           </div>
           {/* Text on image */}
-          <div className="absolute left-32 p-4 rounded ">
+          <div className="absolute left-56 p-4 rounded ">
             <p className="text-sm  text-slate-800 uppercase">
               Welcome to chairy
             </p>
