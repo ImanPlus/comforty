@@ -18,8 +18,8 @@ export default function ProductCard({
           src={image}
           alt={title}
           className="object-cover rounded-lg"
-          width="312px"
-          height="312px"
+          width="259px"
+          height="259px"
         />
         <div className="flex justify-between items-center absolute top-2 px-2 w-full">
           <span
